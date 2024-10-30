@@ -1,5 +1,6 @@
 import sys
 import logging
+from src.logger import logging
 
 
 def error_message_details(error, error_detail:sys):
@@ -23,5 +24,5 @@ if __name__ == '__main__':
     try:
         a = 1/0
     except Exception as e:
-        logging.info('dividing by 0')
+        logging.info('dividing by 0 \n just checking the file')
         raise CustomException(e, sys)
