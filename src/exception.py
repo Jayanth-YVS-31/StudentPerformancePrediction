@@ -5,7 +5,7 @@ from src.logger import logging
 
 def error_message_details(error, error_detail:sys):
     #error_message = f"Error occurred: {error}. Error details: {error_detail}"
-    _,_,exc_tb = error_detail.exc_info()
+    _,_,exc_tb = sys.exc_info()
     file_name = exc_tb.tb_frame.f_code.co_filename
     error_message = "Error [{0}] at line [{1}] and error is [{2}]".format(
         file_name, exc_tb.tb_lineno, str(error)
