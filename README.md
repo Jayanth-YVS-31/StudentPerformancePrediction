@@ -7,3 +7,13 @@ A complete End-to-End Machine Learning Project
 3) Now i perform EDA, model training on the data. They are in the 'notebooks' folder.
 
 4) Here i tried to write a data_ingestion.py file, it's job is to get data from the sources and make it available in 'artifacts' folder.
+
+5) Now we will write the code for the data_transformation.py file in which we transform the columns of the data, like standardizing the numerical columns and encoding the categorical values.
+
+6) After the transformation we will train out model on various algorithms to get a good result.
+
+7) Here, we will use hyperparameter tuning to get a better accuracy on our model.
+
+8) Now create the predict pipeline for the model and ready it for deployment.
+
+9) The application is ready for deployment.
